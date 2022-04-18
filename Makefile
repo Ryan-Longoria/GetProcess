@@ -1,8 +1,8 @@
-assign6: assign6.o
-	gcc -g assign6.o -o assign6
+pid: pid.o
+	gcc -g pid.o -o pid
 
-assign6.o: assign6.c
-	gcc -c assign6.c
+pid.o: pid.c
+	gcc -c pid.c
 
 clean:
-	rm *.o assign6
+	rm *.o pid
